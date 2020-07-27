@@ -12,10 +12,6 @@ public class Main extends Application {
 
     public static void main(String[] args) {
         launch();
-
-        //String numero = "AEFAAEF";
-        //System.out.println(Conversor.transforma("ABC", 16, 15));
-        //System.out.println(Conversor.configuraAlgarismo(9));
     }
 
     @Override

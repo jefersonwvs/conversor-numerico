@@ -40,6 +40,7 @@ public class TelaController implements Initializable {
         try {
             int baseA = Integer.parseInt(chBoxBaseA.getValue().toString());
             String numero = txtNumeroBaseA.getText();
+            numero = numero.replace(",", ".");
             int baseB = Integer.parseInt(chBoxBaseB.getValue().toString());
             txtNumeroBaseB.setText(Conversor.transforma(numero, baseA, baseB));
         } catch (IllegalArgumentException e) {
@@ -56,6 +57,7 @@ public class TelaController implements Initializable {
         try {
             int baseB = Integer.parseInt(chBoxBaseB.getValue().toString());
             String numero = txtNumeroBaseB.getText();
+            numero = numero.replace(",", ".");
             int baseA = Integer.parseInt(chBoxBaseA.getValue().toString());
             txtNumeroBaseA.setText(Conversor.transforma(numero, baseB, baseA));
         } catch (IllegalArgumentException e) {
