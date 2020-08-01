@@ -9,52 +9,52 @@
 
 <AnchorPane prefHeight="252.0" prefWidth="579.0" stylesheets="@TelaEstilo.css" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="main.TelaController">
    <children>
-      <Label layoutX="14.0" layoutY="108.0" text="Base A">
+      <Label layoutX="16.0" layoutY="83.0" text="Base A">
          <font>
             <Font name="DejaVu Sans Bold" size="18.0" />
          </font>
       </Label>
-      <Label layoutX="15.0" layoutY="189.0" text="Base B">
+      <Label layoutX="16.0" layoutY="171.0" text="Base B">
          <font>
             <Font name="DejaVu Sans Bold" size="18.0" />
          </font>
       </Label>
-      <Label layoutX="156.0" layoutY="108.0" text="Número">
+      <Label layoutX="136.0" layoutY="83.0" text="Número">
          <font>
             <Font name="DejaVu Sans Bold" size="18.0" />
          </font>
       </Label>
-      <Label layoutX="156.0" layoutY="189.0" text="Número">
+      <Label layoutX="136.0" layoutY="171.0" text="Número">
          <font>
             <Font name="DejaVu Sans Bold" size="18.0" />
          </font>
       </Label>
-      <TextField fx:id="txtNumeroBaseA" layoutX="236.0" layoutY="105.0" prefHeight="31.0" prefWidth="214.0" styleClass="textField">
+      <TextField fx:id="txtNumeroBaseA" layoutX="128.0" layoutY="110.0" prefHeight="33.0" prefWidth="323.0" styleClass="textField">
          <font>
             <Font size="15.0" />
          </font>
       </TextField>
-      <TextField fx:id="txtNumeroBaseB" layoutX="236.0" layoutY="186.0" prefHeight="25.0" prefWidth="214.0" styleClass="textField">
+      <TextField fx:id="txtNumeroBaseB" layoutX="128.0" layoutY="196.0" prefHeight="33.0" prefWidth="323.0" styleClass="textField">
          <font>
             <Font size="15.0" />
          </font>
       </TextField>
-      <Button fx:id="btAparaB" layoutX="472.0" layoutY="104.0" mnemonicParsing="false" onAction="#acaoBtAparaB" text="A → B">
+      <Button fx:id="btAparaB" layoutX="484.0" layoutY="111.0" mnemonicParsing="false" text="A → B">
          <font>
             <Font size="15.0" />
          </font>
       </Button>
-      <Button fx:id="btBparaA" layoutX="472.0" layoutY="185.0" mnemonicParsing="false" onAction="#acaoBtBparaA" text="B → A">
+      <Button fx:id="btBparaA" layoutX="484.0" layoutY="197.0" mnemonicParsing="false" text="B → A">
          <font>
             <Font size="15.0" />
          </font>
       </Button>
-      <ChoiceBox fx:id="chBoxBaseB" layoutX="82.0" layoutY="182.0" prefHeight="38.0" prefWidth="38.0" />
+      <ChoiceBox fx:id="chBoxBaseB" layoutX="16.0" layoutY="194.0" prefHeight="38.0" prefWidth="38.0" />
       <Label id="label-titulo" layoutX="13.0" layoutY="24.0" prefHeight="48.0" prefWidth="554.0" text="Conversor Numérico">
          <font>
             <Font name="DejaVu Sans Bold" size="30.0" />
          </font>
       </Label>
-      <ChoiceBox fx:id="chBoxBaseA" layoutX="82.0" layoutY="101.0" prefHeight="40.0" prefWidth="34.0" />
+      <ChoiceBox fx:id="chBoxBaseA" layoutX="16.0" layoutY="107.0" prefHeight="40.0" prefWidth="34.0" />
    </children>
 </AnchorPane>
