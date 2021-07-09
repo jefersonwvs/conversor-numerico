@@ -1,0 +1,57 @@
+.root {
+    -fx-background-color: darkgray;
+}
+
+.label {
+    -fx-text-fill: black;
+    -fx-font-family: "Segoe UI", Helvetica, Arial, sans-serif;
+    -fx-text-size: 15pt;
+}
+
+#label-titulo {
+    -fx-text-fill: black;
+    -fx-text-align: center;
+    -fx-font-family: "Segoe UI";
+    -fx-font-size: 30pt;
+    -fx-font-weight: bold;
+    
+}
+
+.choice-box {
+    -fx-border-width: 0.5px;
+    -fx-border-color: black;
+    -fx-border-radius: 30px;
+    -fx-font-size: 12pt;
+    -fx-background-color: grey;
+    -fx-background-radius: 30px;
+    -fx-mark-color: black;
+}
+
+
+.textField {
+    -fx-border-color: black;
+    -fx-border-width: 0.5;
+    -fx-border-radius: 10px;
+    -fx-background-radius: 10px;
+}
+
+.button {
+    -fx-border-color: black;
+    -fx-border-radius: 50px;
+    -fx-background-radius: 50px;
+    -fx-background-color: grey;
+    -fx-font-family: "Segoe UI", Helvetica, Arial, sans-serif;
+    -fx-font-weight: bold;
+    -fx-font-size: 11pt;
+    -fx-text-fill: black;
+    -fx-background-insets: 0 0 0 0, 0, 1, 2;
+}
+
+.button:hover {
+    -fx-background-color: #3a3a3a;
+}
+
+.button:pressed, .button:default:hover:pressed {
+  -fx-background-color: white;
+  -fx-text-fill: #1d1d1d;
+}
